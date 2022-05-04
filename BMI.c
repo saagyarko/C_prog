@@ -31,10 +31,10 @@ char name[]=" ";
         printf("\n Your BMI is %f: Normal. \n", BMI);
      else if (BMI <= 29.9)
         printf("\n Your BMI is %f: Overweight. \n", BMI);
-     else
+     else if(BMI>= 29.9)
         printf("\n Your BMI is %f: Obese. \n", BMI);
-
-
+     else   
+        printf("You're fine just stressed.");
 
     return 0;
 }
